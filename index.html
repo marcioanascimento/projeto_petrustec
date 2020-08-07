@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Petrus Websites</title>
+    <!--Fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a04a71a8a5.js" crossorigin="anonymous"></script>   
+
+    <!--Progress bar-->
+    <script src="js/progressbar.min.js"></script>
+
+    <!--Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>    
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <!-- add essa class -->
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" src="img/logo_petrus4.png" alt="Petrus Websites">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="#home-area" class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#about-area" class="nav-item nav-link" id="about-menu">Sobre</a>
+                        <a href="#services-area" class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a href="#contact-area" class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="home-area" class="container-fluid">
+            <!-- slider -->
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slide0.jpg" class="d-block w-100" alt="Nosso Propósito">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Aqui inovamos para você crescer</h2>
+                            <p>Conte com nossa equipe para ajudar no seu projeto</p>
+                            <a href="#services-area" class="main-btn">Saiba mais</a>
+                        </div>                                               
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide1.jpg" class="d-block w-100" alt="Projetamos sua ideia">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Desenvolvemos sua ideia</h2>
+                            <p>Tornamos seu projeto realidade</p>
+                            <a href="#services-area" class="main-btn">saiba mais</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide2.jpg" class="d-block w-100" alt="Conte conosco">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Conte conosco para ajudar nessa jornada</h2>
+                            <p>Nossa missão é tornar sua marca vista e reconhecida</p>
+                            <a href="#services-area" class="main-btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>            
+             <!--Sobre a Empresa-->
+             <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre a <span class="color-h3">Petrus</span>Websites</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/banner1.jpg" alt="Petrus Websites">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">Inovando para gerar valor</h3>
+                            <p>Uma empresa focada em resultado, ágil e moderna.</p>
+                             <p>Com foco na geração de valor para o seu negócio</p>
+                             <p>Especializada e dinâmica. Antenada nas novidas.</p>
+                             <p>Organizada e amigável, sempre aberta para uma conversa.</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check-square"></i>Confiabilidade na entrega do seu projeto.</li>
+                                <li><i class="fas fa-check-square"></i>Sem enrolação, direto ao ponto.</li>
+                                <li><i class="fas fa-check-square"></i>Aqui você fala com pessoas de verdade, sempre!</li>
+                                <li><i class="fas fa-check-square"></i>Orçamentos ajustáveis ao que você realmente precisa.</li>
+                                <li><i class="fas fa-check-square"></i>Diversos modelos de sites para atender sua necessidade.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Serviços da Empresa-->
+            <div id="services-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title-services"> Nossos <span class="color-h3">Serviços</span></h3>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Sites responsivos</h4>
+                            <p>Seu site estruturado para computadores, tablets e smartphones, sem perder qualidade.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h4>E-commerces</h4>
+                            <p>Aumente suas vendas com a loja online. Sua vitrine virtual para milhares de pessoas.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Design Criativos</h4>
+                            <p>Templates modernos, criados especialmente para o seu negócio. Fácil de administrar e atualizar.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fab fa-google"></i>
+                            <h4>Otimizado para o Google</h4>
+                            <p>Mantenha o seu site no radar do Goggle, assim todos que pesquisarem por serviços como o seu encontrarão seu site.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-hands-helping"></i>
+                            <h4>Domínio próprio</h4>
+                            <p>Seu próprio nome no seu site, com seu domínio (Ex: www.seusite.com.br ou .com)</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-share-alt"></i>
+                            <h4>Integração com Redes Sociais</h4>
+                            <p>Mantenha tudo conectado. Suas redes sociais poderão ser acessadas a partir do seu site. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="team-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title-marca">Dando <span class="color-h3"> visibilidade </span> à sua Marca</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/seja_visto.png" class="card-img-top" alt="Imagem de Perfil 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">SEJA CONHECIDO</h5>
+                                    <p class="card-text card-text-p">Seus clientes precisam te ver!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/seja_lembrado.png" class="card-img-top" alt="Imagem de Perfil 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">QUEM É VISTO</h5>
+                                    <p class="card-text">É lembrado...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/seja_presente.png" class="card-img-top" alt="Imagem de Perfil 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">FAÇA PARTE</h5>
+                                    <p class="card-text">Construa laços fortes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/seja_parceiro.png" class="card-img-top" alt="Imagem de Perfil 4">
+                                <div class="card-body">
+                                    <h5 class="card-title card-h5">CONSTRUA PARCERIAS</h5>
+                                    <p class="card-text">Elas fortalecem a marca</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact-area" class="form">                
+                <form class="container">
+                    <div class="form-425">
+                        <div>
+                            <h4 class="form-h4">Fale com a gente</h4>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputFirstName">Nome</label>
+                                <input type="text" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col">
+                                <label for="inputLastName">Sobrenome</label>
+                                <input type="text" class="form-control" placeholder="Sobrenome">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone">Telefone</label>
+                                <input type="phone" class="form-control" id="inputPhone" placeholder="Telefone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Endereço</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Rua...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="validationTextarea">Digite sua mensagem</label>
+                            <textarea class="form-control" id="validationTextarea" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <div id="form-btn">        
+                            <button type="submit" class="form-btn main-btn">Enviar</button> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>        
+    </main>
+    <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="footer-container">
+  
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> Marcio A. Nascimento</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,832 @@
+/* Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+header, .navbar {
+    background-color: #5893D4;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 60%;
+}
+
+.navbar-brand {
+    padding: 0px 10px;
+}
+
+#navbar-links a {
+    color: #FFF;
+    font-style: 16px;
+    font-family: 'Roboto', 'sans serif';
+    font-weight: 500;
+    padding-right: 2em;
+}
+
+#navbar-links a:hover {
+    color: #F7B633;
+}
+
+.navba-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Slider */
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+
+.main-btn {
+    background-color: #5893D4;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #5893D4;
+}
+
+.carousel-indicators .active {
+    background-color: #5893D4;
+}
+
+/* sobre a empresa */
+#about-area {
+    background-color: #F9F9F9;
+}
+
+.main-title {
+    color: #5893D4;
+    margin: 0 0 65px 0;
+    font-size: 50px;
+    text-align: left;
+}
+
+.main-title  .color-h3 {
+    color: #F7B633;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #5893D4;
+    width: 12%;
+    position: absolute;
+    top: 60px;
+    left: 17.5%;
+}
+
+.about-title {
+    font-size: 30px;
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.col-md-6 p {
+    color: #666;    
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #F7B633;
+    margin-right: 15px;
+}
+
+/* Serviços */
+#services-area {
+    background-color: #5893D4;
+}
+
+.main-title-services {
+    color: #FFF;
+    margin: 0 0 65px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-title-services  .color-h3 {
+    color: #F7B633;
+}
+
+.main-title-services::after {
+    content: "";
+    border-top: 2px solid #FFF;
+    width: 16%;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+}
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box h4 {
+    color: #FFF;
+}
+
+.service-box p {
+    color: #FFF;
+}
+
+.service-box i, .service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #F7B633;
+}
+
+/* A marca */
+
+.card-body {
+    text-align: center;
+}
+
+.main-title-marca {
+    color: #666;
+    margin: 0 0 65px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-title-marca  .color-h3 {
+    color: #F7B633;
+}
+
+.main-title-marca::after {
+    content: "";
+    border-top: 2px solid #5893D4;
+    width: 22%;
+    position: absolute;
+    top: 60px;
+    left: 33%;
+}
+
+/* Formulário */
+
+.form {
+    background-color: #6a6a6a;
+    line-height: 40px;
+}
+
+.form-row label {
+    color: #FFF;
+}
+
+.form-group label {
+    color: #FFF;
+}
+
+.mb-3 label {
+    color: #FFF;
+}
+
+#form-btn {
+    text-align: center;
+}
+
+.form-btn {
+    width: 200px;
+    height: 60px;
+    padding: 8px 8px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.form-h4 {
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+/* Footer */
+.page-footer {
+    background-color: #070D59;
+}
+
+.footer-container .btn-floating {
+    font-size: 36px;
+    color: #FFF;
+}
+
+.footer-copyright {
+    background-color: #5893D4;
+    color: #FFF;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+    color: #070D59;
+    font-weight: bold;
+}
+
+.footer-copyright a:hover {
+    color: #F7B633;
+}
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+
+    /*Geral*/
+    .container {
+        padding: 20px 0;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: 80vh;
+    }
+    
+    #mainSlider .carousel-caption h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 80px;
+        margin-left: -10px;
+        color: #FFF;
+    }
+
+    /* sobre a empresa */
+    .main-title {
+        color: #5893D4;
+        margin: 0 0 65px 0;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .main-title::after {
+        content: "";
+        border-top: 2px solid #5893D4;
+        width: 12%;
+        position: absolute;
+        top: 45px;
+        left: 16.7%;
+    }
+
+    .about-title {
+        font-size: 20px;
+        color: #666666;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    #about-list li {
+        line-height: 25px;
+    }
+
+    /* Serviços */
+    .main-title-services {
+        color: #FFF;
+        margin: 0 0 65px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main-title-services::after {
+        content: "";
+        border-top: 2px solid #FFF;
+        width: 12%;
+        position: absolute;
+        top: 40px;
+        left: 49.7%;
+    }
+   
+    .service-box i {
+        font-size: 32px;
+        margin-bottom: 20px;
+        color: #FFF;
+    }
+
+    .service-box h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* A marca */
+
+    .main-title-marca {
+        color: #666;
+        margin: 0 0 65px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main-title-marca::after {
+        content: "";
+        border-top: 2px solid #5893D4;
+        width: 15%;
+        position: absolute;
+        top: 40px;
+        left: 38.5%;
+    }
+
+    .card-body h5 {
+        font-size: 14px;
+    }
+
+    .card-body p {
+        font-size: 12px;
+    }
+
+    /* Formulário */
+
+    .form {
+        background-color: #6a6a6a;
+        line-height: 30px;
+    }
+
+    .form-btn {
+        width: 150px;
+        height: 45px;
+        padding: 6px 6px;
+        border-radius: 30px;
+        margin-top: 50px;
+    }
+
+    .form-h4 {
+        text-align: center;
+        color: #FFF;
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+
+    .form-row label {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer-container .btn-floating {
+        font-size: 28px;
+        color: #FFF;
+    }
+
+    .footer-copyright, .footer-copyright a {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    /* Slider */
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: 60vh;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        margin-top: -30px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 60px;
+        margin-left: -10px;
+        color: #FFF;
+    }
+
+    /* sobre a empresa */
+    .main-title {
+        color: #5893D4;
+        margin: 0 0 65px 0;
+        font-size: 35px;
+        text-align: left;
+    }
+
+    .main-title::after {
+        content: "";
+        border-top: 2px solid #5893D4;
+        width: 13.7%;
+        position: absolute;
+        top: 39px;
+        left: 20%;
+    }
+
+    .about-title {
+        font-size: 20px;
+        color: #666666;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .col-md-6 p {
+        line-height: 7px;
+        font-size: 12px;
+    }
+
+    #about-list li {
+        line-height: 18px;
+        font-size: 12px;
+    }
+
+    /* Serviços */
+    #services-area .container {
+        padding-bottom: 1em ;
+    }
+
+    .main-title-services {
+        color: #FFF;
+        margin: 0 0 65px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main-title-services::after {
+        content: "";
+        border-top: 2px solid #FFF;
+        width: 15%;
+        position: absolute;
+        top: 40px;
+        left: 49.7%;
+    }
+   
+    .service-box i {
+        font-size: 32px;
+        margin-bottom: 20px;
+        color: #FFF;
+    }
+
+    .service-box h4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /* A marca */
+
+    .main-title-marca {
+        color: #666;
+        margin: 0 0 65px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main-title-marca::after {
+        content: "";
+        border-top: 2px solid #5893D4;
+        width: 20%;
+        position: absolute;
+        top: 40px;
+        left: 34.5%;
+    }
+
+    .card-body h5 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .card-body .card-h5 {
+        font-size: 10.2px;
+        font-weight: 400;
+    }
+
+    .card-body p {
+        font-size: 9px;
+    }
+
+    .card-body .card-text-p {
+        font-size: 8.1px;
+    }
+
+    /* Formulário */
+
+    .form {
+        background-color: #6a6a6a;
+        line-height: 30px;
+    }
+
+    .form-btn {
+        width: 150px;
+        height: 45px;
+        padding: 6px 6px;
+        border-radius: 30px;
+        margin-top: 50px;
+    }
+
+    .form-h4 {
+        text-align: center;
+        color: #FFF;
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+
+    .form-row label {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer-container .btn-floating {
+        font-size: 22px;
+        color: #FFF;
+    }
+
+    .footer-copyright, .footer-copyright a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: 35vh;
+    }
+    
+    #mainSlider {
+        top: 90px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%
+    }
+    
+    #mainSlider .carousel-caption h2 {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+    #mainSlider .carousel-caption .main-btn {
+        font-size: 14px;
+    }
+
+    /* sobre a empresa */
+    .main-title {
+        color: #5893D4;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .main-title::after {
+        display: none;
+    }
+
+    /* Serviços */
+    .main-title-services {
+        color: #FFF;
+        margin: 0 0 65px 0;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .main-title-services::after {
+        display: none;
+    }
+   
+    .service-box i {
+        font-size: 26px;
+        margin-bottom: 10px;
+        color: #FFF;
+    }
+
+    .service-box h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .service-box p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    /* A marca */
+
+    .main-title-marca {
+        color: #666;
+        margin: 5px ;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main-title-marca::after {
+        display: none;
+    }
+
+    .card-body h5 {
+        font-size: 16px;
+    }
+
+    .card-body p {
+        font-size: 14px;
+    }
+
+    .card-body .card-h5 {
+        font-size: 16px;
+    }
+
+    .card-body .card-text-p {
+        font-size: 14px;
+    }
+
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* Formulário */
+
+    .form-btn {
+        font-size: 14px;
+        width: 150px;
+        height: 45px;
+        padding: 6px 6px;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+
+    .form-h4 {
+        text-align: center;
+        color: #FFF;
+        font-size: 26px;
+        padding-bottom: 40px;
+    }
+
+    /* Footer */
+    .footer-container .btn-floating {
+        font-size: 22px;
+        color: #FFF;
+    }
+
+    .footer-copyright, .footer-copyright a {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    
+    /* Serviços */
+    .main-title-services {
+        color: #FFF;
+        margin: 15px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .main-title-services::after {
+        display: none;
+    }
+   
+    .service-box i {
+        font-size: 26px;
+        margin-bottom: 5px;
+        color: #FFF;
+    }
+
+    .service-box h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .service-box p {
+        font-size: 11px;
+        margin: 8px;
+    }
+
+    /* A marca */
+
+    .main-title-marca {
+        color: #666;
+        margin-bottom: 25px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .main-title-marca::after {
+        display: none;
+    }
+
+    .card-body h5 {
+        font-size: 13px;
+    }
+
+    .card-body p {
+        font-size: 12px;
+    }
+
+    .card-body .card-h5 {
+        font-size: 13px;
+    }
+
+    .card-body .card-text-p {
+        font-size: 9.5px;
+    }
+
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* Formulário */
+
+    .form-425 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .form-btn {
+        font-size: 13px;
+        width: 120px;
+        height: 45px;
+        padding: 5px 5px;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+
+    .form-h4 {
+        text-align: center;
+        color: #FFF;
+        font-size: 26px;
+        padding-bottom: 40px;
+    }
+
+    /* Footer */
+    .footer-container .btn-floating {
+        font-size: 18px;
+        color: #FFF;
+    }
+
+    .footer-copyright, .footer-copyright a {
+        font-size: 11px;
+    }
+
+}
